@@ -21,4 +21,24 @@ class GumballMachineTest extends TestCase
         $this->assertEquals(99, $this->gumbalMachineInstance->getGumballs()-1);
     }
 
+    public function testSkipped(){
+
+        $this->markTestSkipped(
+            'Skipped test'
+        );
+    }
+    public function testSkipped2(){
+
+        $this->markTestSkipped(
+            'Skipped test 2'
+        );
+    }
+
+    public function testSkipped3(){
+
+        $this->markTestSkipped(
+            'Skipped test 3'
+        );
+    }
+
 }
