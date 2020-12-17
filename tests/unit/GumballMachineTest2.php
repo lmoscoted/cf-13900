@@ -14,13 +14,6 @@ class GumballMachineTest2 extends TestCase
 
     }
 
-    public function testIfWheelWorks(){
-
-        $this->gumbalMachineInstance->setGumballs(100);
-        $this->gumbalMachineInstance->turnWheel();
-
-        $this->assertEquals(99, $this->gumbalMachineInstance->getGumballs());
-    }
 
     public function testIfWheelWorks2(){
 
