@@ -9,8 +9,11 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="unit">
-            <directory>unit</directory>
+        <directory>unit</directory>
+<!--        <testsuite name="unit">
+            <file>GumballMachineTest.php</file>
+            <file>GumballMachine2Test.php</file>
+            <file>GumballMachine3Test.php</file>
         </testsuite>
         <testsuite name="integration">
             <directory>integration</directory>
@@ -18,6 +21,6 @@
         <testsuite name="full">
             <directory>unit</directory>
             <directory>integration</directory>
-        </testsuite>
+        </testsuite>-->
     </testsuites>
 </phpunit>

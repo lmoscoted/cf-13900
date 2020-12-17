@@ -2,15 +2,15 @@
 
 use PHPUnit\Framework\TestCase;
 
-require 'GumballMachine.php';
+require 'GumballMachine2.php';
 
-class GumballMachineTest3 extends TestCase
+class GumballMachine2Test extends TestCase
 {
     public $gumbalMachineInstance;
 
     public function setUp()
     {
-        $this->gumbalMachineInstance =  new  GumballMachine();
+        $this->gumbalMachineInstance =  new  GumballMachine2();
 
     }
 
@@ -23,7 +23,7 @@ class GumballMachineTest3 extends TestCase
         $this->assertEquals(99, $this->gumbalMachineInstance->getGumballs());
     }
 
-    public function testSkipped(){
+    public function testSkipped2(){
 
         $this->markTestSkipped(
             'Skipped test'

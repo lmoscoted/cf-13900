@@ -11,9 +11,9 @@ class GumballMachineTest extends TestCase
     public function setUp()
     {
         $this->gumbalMachineInstance =  new  GumballMachine();
-        $this->markTestSkipped(
+        /*$this->markTestSkipped(
             'Skipped test'
-        );
+        );*/
     }
 
     public function testIfWheelWorks(){
@@ -24,7 +24,7 @@ class GumballMachineTest extends TestCase
         $this->assertEquals(99, $this->gumbalMachineInstance->getGumballs());
     }
 
-    public function testSkipped(){
+/*    public function testSkipped(){
 
         $this->markTestSkipped(
             'Skipped test'
@@ -42,6 +42,6 @@ class GumballMachineTest extends TestCase
         $this->markTestSkipped(
             'Skipped test 3'
         );
-    }
+    }*/
 
 }
