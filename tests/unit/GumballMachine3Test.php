@@ -8,7 +8,7 @@ class GumballMachine3Test extends TestCase
 {
     public $gumbalMachineInstance;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->gumbalMachineInstance =  new  GumballMachine3();
 
@@ -29,6 +29,5 @@ class GumballMachine3Test extends TestCase
             'Skipped test'
         );
     }
-
 
 }
